@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.peter.mystaffapplication.utils.aaaa xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+<!--侧滑菜单的布局-->
+      <include layout="@layout/layout"
+          android:id="@+id/ll"></include>
+
+<!--主界面Activity的布局-->
+    <LinearLayout
+        android:id="@+id/rv_a"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--<LinearLayout-->
+            <!--android:id="@+id/Tv_al"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="80dp"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:src="@mipmap/aaaaa" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="450dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginBottom="12dp"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:text="Dae、" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:layout_marginTop="3dp"-->
+                    <!--android:text="账号：18292835521" />-->
+            <!--</LinearLayout>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:src="@mipmap/asaasas"-->
+                <!--android:layout_marginBottom="15dp"/>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background="#ffffff"-->
+            <!--android:gravity="center_vertical">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:src="@mipmap/xc" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:textSize="20dp"-->
+                <!--android:text="相册" />-->
+        <!--</LinearLayout>-->
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_margin="20dp"-->
+            <!--android:background="#a3a0a0"/>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background="#ffffff"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:gravity="center_vertical">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:src="@mipmap/ssc" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="20dp"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:text="收藏" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background="#ffffff"-->
+            <!--android:gravity="center_vertical">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:src="@mipmap/qqb" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_qb"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:textSize="20dp"-->
+                <!--android:text="钱包" />-->
+        <!--</LinearLayout>-->
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_margin="20dp"-->
+            <!--android:background="#c1c1c1"/>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background="#ffffff"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:gravity="center_vertical">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:src="@mipmap/kj" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:textSize="20dp"-->
+                <!--android:text="卡劵" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background="#ffffff"-->
+            <!--android:layout_marginBottom="30dp"-->
+            <!--android:gravity="center_vertical">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:src="@mipmap/yy" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_yy"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:textSize="20dp"-->
+                <!--android:text="音乐" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background="#ffffff"-->
+            <!--android:gravity="center_vertical">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:src="@mipmap/sz" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_sz"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="20dp"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:text="设置" />-->
+        <!--</LinearLayout>-->
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/rv_show"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    </LinearLayout>
+</com.example.peter.mystaffapplication.utils.aaaa>
